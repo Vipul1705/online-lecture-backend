@@ -9,6 +9,10 @@ const fileUpload = require("express-fileupload");
 const errorLogger = require("./middlewares/errorRequest");
 const moment = require("moment-timezone");
 moment.tz.setDefault("Asia/Kolkata");
+const verifyRefreshToken = require("./middlewares/verifyRefreshToken");
+const verifyAccessToken = require("./middlewares/verifyAccessToken");
+const authRouter = require("./routes/authRoute");
+const tokenRouter = require("./routes/tokenRoute");
 
 app = express();
 
@@ -19,10 +23,18 @@ app.use(bodyParser.json());
 app.use(credentials);
 app.use(cors(corsOptions));
 app.use(cookieParser());
+
 //Routes
+app.use("/auth", authRouter);
+
+app.use(verifyRefreshToken);
+app.use("/refreshToken", tokenRouter);
+
+// app.use(verifyAccessToken);
 app.use(errorLogger);
 
 const mongoose = require("mongoose");
+const authRouter = require("./routes/authRoute");
 const connectionParams = {
   useNewUrlParser: true,
   useUnifiedTopology: true,

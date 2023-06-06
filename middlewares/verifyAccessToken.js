@@ -1,4 +1,4 @@
-require("dotenv").config();
+// require("dotenv").config();
 const jwt = require("jsonwebtoken");
 exports.isValidToken = (req, res, next) => {
   if (req.headers["authorization"]) {
