@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const UserTokenSchema = require("../../models/UserTokens");
+const UserTokenSchema = require("../models/UserToken");
 
 const verifyRefreshToken = (req, res, next) => {
   const refreshToken = req.cookies.refreshToken;

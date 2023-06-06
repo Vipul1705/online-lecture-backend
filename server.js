@@ -34,7 +34,6 @@ app.use("/refreshToken", tokenRouter);
 app.use(errorLogger);
 
 const mongoose = require("mongoose");
-const authRouter = require("./routes/authRoute");
 const connectionParams = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
