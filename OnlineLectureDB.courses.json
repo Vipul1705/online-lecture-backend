@@ -1,0 +1,38 @@
+[{
+  "_id": {
+    "$oid": "6480c4543ad7c714467a9fb4"
+  },
+  "course_id": "C1",
+  "name": "IT",
+  "level": "SEM3",
+  "description": "Course for Software Engineers"
+},
+{
+  "_id": {
+    "$oid": "6480c4c63ad7c714467a9fb5"
+  },
+  "course_id": "C2",
+  "name": "CS",
+  "level": "SEM4",
+  "description": "Course for Computer Science"
+},
+{
+  "_id": {
+    "$oid": "6480c4de3ad7c714467a9fb6"
+  },
+  "course_id": "C3",
+  "name": "EE",
+  "level": "SEM3",
+  "description": "Course for Electronics"
+},
+{
+  "_id": {
+    "$oid": "6480dfa15bad9dc76899ce3c"
+  },
+  "course_id": "C5",
+  "name": "EXTC",
+  "level": "Beginner",
+  "description": "testing",
+  "lectures": [],
+  "__v": 0
+}]

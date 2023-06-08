@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "6480c5f53ad7c714467a9fb8"
+  },
+  "instructor_id": "IN1",
+  "name": "Shubham Nair",
+  "courses": [
+    {
+      "course_id": "C2"
+    },
+    {
+      "course_id": "C4"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6480c6813ad7c714467a9fb9"
+  },
+  "instructor_id": "IN2",
+  "name": "Neeraj Yadav",
+  "courses": [
+    {
+      "course_id": "C1"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6480c6923ad7c714467a9fba"
+  },
+  "instructor_id": "IN3",
+  "name": "Abhishek Wable",
+  "courses": [
+    {
+      "course_id": "C1"
+    },
+    {
+      "course_id": "C2"
+    }
+  ]
+}]

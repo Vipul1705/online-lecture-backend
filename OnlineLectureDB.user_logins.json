@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "6480341d385eaceeaa5e474e"
+  },
+  "user_id": "IN1",
+  "name": "Shubham Nair",
+  "role": "instructor",
+  "password": "IN1_Shubham"
+},
+{
+  "_id": {
+    "$oid": "6480347f385eaceeaa5e474f"
+  },
+  "user_id": "admin",
+  "name": "Vipul Patil",
+  "role": "admin",
+  "password": "admin123"
+}]
