@@ -1,4 +1,4 @@
-const jwt = require("jsonwebtoken");
+import jwt from "jsonwebtoken";
 
 const refreshToken = async (req, res, next) => {
   try {
@@ -23,6 +23,4 @@ const refreshToken = async (req, res, next) => {
     res.status(500).send("INTERNAL SERVER ERROR");
   }
 };
-module.exports = {
-  refreshToken,
-};
+export default { refreshToken };

@@ -1,5 +1,5 @@
-const jwt = require("jsonwebtoken");
-const UserTokenSchema = require("../models/UserToken");
+import jwt from "jsonwebtoken";
+import { UserToken } from "../models/UserToken.js";
 
 const verifyRefreshToken = (req, res, next) => {
   const refreshToken = req.cookies.refreshToken;
@@ -10,7 +10,7 @@ const verifyRefreshToken = (req, res, next) => {
       .json({ error: true, message: "Invalid refresh token" });
   }
 
-  UserTokenSchema.findOne({ token: refreshToken }, (err, docs) => {
+  UserToken.findOne({ token: refreshToken }, (err, docs) => {
     if (!docs) {
       return res
         .status(401)
@@ -34,4 +34,4 @@ const verifyRefreshToken = (req, res, next) => {
   });
 };
 
-module.exports = verifyRefreshToken;
+export default verifyRefreshToken;

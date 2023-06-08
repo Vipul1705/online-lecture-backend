@@ -1,4 +1,4 @@
-var mongoose = require("mongoose");
+import mongoose from "mongoose";
 
 var UserTokenSchema = new mongoose.Schema({
   user_id: {
@@ -16,5 +16,4 @@ var UserTokenSchema = new mongoose.Schema({
   },
 });
 
-const user_token = mongoose.model("user_tokens", UserTokenSchema);
-module.exports = user_token;
+export const UserToken = mongoose.model("user_tokens", UserTokenSchema);

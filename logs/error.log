@@ -1,0 +1,19 @@
+2023-06-07 13:13:05: ReferenceError: generateToken is not defined
+    at verifyLogin (C:\Users\VI20381478\Desktop\Web development\MERN\Online Lecture Scheduling\online-lecture-backend\controllers\authController.js:15:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-07 13:16:56: TypeError: user_token.remove is not a function
+    at generateToken (C:\Users\VI20381478\Desktop\Web development\MERN\Online Lecture Scheduling\online-lecture-backend\utils\generateToken.js:25:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async verifyLogin (C:\Users\VI20381478\Desktop\Web development\MERN\Online Lecture Scheduling\online-lecture-backend\controllers\authController.js:16:45)
+2023-06-07 19:57:00: TypeError: user_token.remove is not a function
+    at generateToken (C:\Users\VI20381478\Desktop\Web development\MERN\Online Lecture Scheduling\online-lecture-backend\utils\generateToken.js:25:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async verifyLogin (C:\Users\VI20381478\Desktop\Web development\MERN\Online Lecture Scheduling\online-lecture-backend\controllers\authController.js:16:45)
+2023-06-07 19:58:30: TypeError: user_token.remove is not a function
+    at generateToken (C:\Users\VI20381478\Desktop\Web development\MERN\Online Lecture Scheduling\online-lecture-backend\utils\generateToken.js:25:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async verifyLogin (C:\Users\VI20381478\Desktop\Web development\MERN\Online Lecture Scheduling\online-lecture-backend\controllers\authController.js:16:45)
+2023-06-07 20:01:26: TypeError: user_token.remove is not a function
+    at generateToken (C:\Users\VI20381478\Desktop\Web development\MERN\Online Lecture Scheduling\online-lecture-backend\utils\generateToken.js:25:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async verifyLogin (C:\Users\VI20381478\Desktop\Web development\MERN\Online Lecture Scheduling\online-lecture-backend\controllers\authController.js:16:45)
